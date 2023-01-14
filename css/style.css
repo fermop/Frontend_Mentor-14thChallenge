@@ -1,0 +1,46 @@
+:root {
+  /* Text */
+  --clr-primary-Very-dark-desaturated-blue: hsl(238, 29%, 16%);
+  --clr-primary-Soft-red: hsl(14, 88%, 65%);
+
+  --clr-neutral-Very-dark-grayish-blue: hsl(237, 12%, 33%);
+  --clr-neutral-Dark-grayish-blue: hsl(240, 6%, 50%);
+
+  /* Gradient */
+  --top: hsl(273, 75%, 66%);
+  --bottom: hsl(240, 73%, 65%);
+
+  /* Divider */
+  --divider: hsl(240, 5%, 91%);
+
+  --fs-body-copy: 0.75rem;
+
+  --ff-base: 'Kumbh Sans', sans-serif;
+
+  --fw-400: 400;
+  --fw-700: 700;
+}
+/* ---------- Reset ---------- */
+*, *::before, *::after {box-sizing: border-box;}
+* {margin: 0;padding: 0;}
+body {line-height: 1.5;-webkit-font-smoothing: antialiased;}
+img, picture, video, canvas, svg {display: block;max-width: 100%;}
+input, button, textarea, select {font: inherit;}
+p, h1, h2, h3, h4, h5, h6 {overflow-wrap: break-word;}
+
+
+
+
+
+
+
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
