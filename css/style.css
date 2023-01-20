@@ -224,12 +224,3 @@ main {
     padding: 0;
   }
 }
-/*
-Media query needed to center the card, this way the screenshot on Frontend Mentor
-makes it look as similar as the comparative one.
-*/
-@media (min-width: 62.5rem) and (min-height: 39.0625rem) {
-  .card {
-    margin: 0 auto;
-  }
-}
